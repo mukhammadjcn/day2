@@ -87,7 +87,7 @@ export default {
             flex-basis: 60%;
             color: white;
             transition-timing-function: ease-in;
-            transition: 0.6s;
+            transition: 0.4s;
             transform-origin: left;
         }
         
@@ -110,9 +110,9 @@ export default {
     display: none;
 }
 .logo{
-    img{
-        width: 100%;
-    }
+    width: 110px;
+    height: 50px;
+    display: block;
 }
 
 @media(max-width:776px){

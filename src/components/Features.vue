@@ -91,6 +91,7 @@ export default {
 .features{
     padding: 86px 0;
     .row{
+        justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
         padding: 78px 0;
@@ -130,6 +131,32 @@ export default {
     &:hover{
         color: white;
         background: #2E9ADB;
+    }
+}
+
+@media(max-width:776px){
+    .features{
+        .feature{
+            flex-basis: 40%;
+        }
+    }
+}
+
+@media(max-width:500px){
+    .features{
+        .feature{
+            .minInfo{
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 15px;
+            }
+        }
+        .btn{
+            font-size: 16px;
+            line-height: 24px;
+            width: 90%;
+            padding: 20px 16px;
+        }
     }
 }
 </style>
