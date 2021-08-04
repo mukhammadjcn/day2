@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss">
 .footer{
-    padding: 64px 0;
+    padding: 0 0 64px;
     .row{
         justify-content: space-between;
         .logo{
