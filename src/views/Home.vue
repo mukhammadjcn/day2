@@ -3,11 +3,11 @@
     <Header />
     <intro :option="option"/>
     <features/>
-    <offer :option="option"/>
+    <offer />
     <payments/>
     <services/>
     <partners/>
-    <contact :option="option"/>
+    <contact />
     <Footer/>
 
   </div>

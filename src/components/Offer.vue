@@ -18,12 +18,6 @@
                 </div>
             </div>
         </div>
-        <Particles
-                id="tsparticles"
-                :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
-                :options="option"
-        />
     </div>
 </template>
 
@@ -31,12 +25,6 @@
 
 export default {
     name : "Offer",
-    props : {
-        option : {
-            type : Object,
-            default : () => {}
-        }
-    }
 }
 </script>
 

@@ -9,24 +9,12 @@
                 <button type="submit" class="btn">написать нам</button>
             </form>
         </div>
-        <Particles
-                id="tsparticles"
-                :particlesInit="particlesInit"
-                :particlesLoaded="particlesLoaded"
-                :options="option"
-        />
     </div>
 </template>
 
 <script>
 export default {
     name : "Contact",
-     props : {
-        option : {
-            type : Object,
-            default : () => {}
-        }
-    }
 }
 </script>
 
@@ -54,6 +42,11 @@ export default {
             background: #FFFFFF;
             border-radius: 50px;
             border: none;
+            outline: none;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: rgba(126, 126, 126, 0.5);
             &::placeholder{
                 font-weight: 400;
                 font-size: 20px;
